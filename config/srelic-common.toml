@@ -1,0 +1,13 @@
+#Unintended one strike damage multiplier, default is 5 or 5 times, damage algorithm is: (get player attack value * increase/decrease item) * current configuration item
+#无想的一刀伤害倍率，默认为10即10倍，伤害算法为：（获取玩家攻击数值*增衰项）*当前配置项
+#Range: > 1
+the_dream_damage = 10
+#Phantom Blade Drive · Extreme Damage multiplier, default is 12 or 12 times, algorithm is: 20+(get player attack value * increase/decrease item)/2 * current configuration item
+#幻影刃驱动·极伤害倍率,默认为12即12倍，算法为：20+（获取玩家攻击数值*增衰项）/2*当前配置项
+#Range: > 1
+neo_drive_damage = 12
+#Obtain the increase and decrease items of player attack values. If it is greater than 1, the increase will be greater than 1. If it is less than 1, the default decrease will be 0.25, which is a 75% decrease
+#获取玩家攻击数值增衰项,大于1即增加小于则衰减默认0.25，即玩家攻击力乘0.25
+#Range: 0.1 ~ 1.7976931348623157E308
+Attenuation_term = 0.25
+
