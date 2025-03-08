@@ -11,7 +11,7 @@
 	#Range: 0.0 ~ 1.0
 	originEtchingDropChance = 0.5
 	#Range: 0 ~ 100
-	originEtchingEffectRequirement = 100
+	originEtchingEffectRequirement = 200
 	#Range: 0.0 ~ 1.0
 	lifeEtchingDropChance = 0.15
 	#Range: 1 ~ 1000000

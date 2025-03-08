@@ -136,7 +136,7 @@
 	#How long in seconds the server will keep skins in it's cache.
 	#Setting to 0 turns off this option.
 	#Range: 0 ~ 31536000
-	expireTime = 6000
+	expireTime = 86400
 	#Max size the skin cache can reach before skins are removed.
 	#Setting to 0 turns off this option.
 	#Range: 0 ~ 10000

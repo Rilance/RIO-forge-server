@@ -2,78 +2,6 @@
 #Disables certain types. Note that all these configs, like in any other mod, only hide stuff from tabs and disable their recipes
 [types]
 
-	[types.stone_type]
-
-		[types.stone_type.pasterdream]
-			shadow_stone = true
-			cyan_stone = true
-
-		[types.stone_type.biomesoplenty]
-			brimstone = true
-
-		[types.stone_type.ad_astra]
-			moon_stone = true
-			mars_stone = true
-			mercury_stone = true
-			venus_stone = true
-			venus_sandstone = true
-			glacio_stone = true
-			permafrost = true
-
-		[types.stone_type.blue_skies]
-			polished_brumble = true
-
-		[types.stone_type.aether]
-			holystone = true
-
-		[types.stone_type.gravitation]
-			conglomerate = true
-
-		[types.stone_type.deep_aether]
-			aseterite = true
-			aether_mud = true
-
-		[types.stone_type.aether_redux]
-			sentrite = true
-
-		[types.stone_type.naturalist]
-			shellstone = true
-
-		[types.stone_type.create]
-			cut_granite = true
-			cut_diorite = true
-			cut_andesite = true
-			cut_calcite = true
-			cut_dripstone = true
-			cut_deepslate = true
-			cut_tuff = true
-			cut_asurine = true
-			cut_crimsite = true
-			cut_limestone = true
-			cut_ochrum = true
-			cut_scoria = true
-			cut_scorchia = true
-			cut_veridium = true
-
-		[types.stone_type.upgrade_aquatic]
-			kelpy_cobblestone = true
-
-		[types.stone_type.alexscaves]
-			galena = true
-			radrock = true
-			abyssmarine = true
-			guanostone = true
-
-		[types.stone_type.forbidden_arcanus]
-			polished_darkstone = true
-
-		[types.stone_type.astral_dimension]
-			astral_stone = true
-			harsh_stone = true
-			astral_marble = true
-			moonstone = true
-			pyrite = true
-
 	[types.wood_type]
 
 		[types.wood_type.domum_ornamentum]
@@ -239,6 +167,35 @@
 			mining = true
 			sorting = true
 
+		[types.leaves_type.aether]
+			golden_oak = true
+			holiday = true
+			decorated_holiday = true
+			crystal = true
+			crystal_fruit = true
+			skyroot = true
+
+		[types.leaves_type.aether_redux]
+			fieldsproot = true
+			gilded_oak = true
+			blighted_skyroot = true
+			purple_glacia = true
+			blightwillow = true
+			glacia = true
+
+		[types.leaves_type.deep_aether]
+			flowering_roseroot = true
+			blue_roseroot = true
+			flowering_blue_roseroot = true
+			roseroot = true
+			yagroot = true
+			cruderoot = true
+			conberry = true
+			sunroot = true
+
+		[types.leaves_type.alexscaves]
+			ancient = true
+
 		[types.leaves_type.naturesaura]
 			ancient = true
 			golden = true
@@ -254,37 +211,12 @@
 			willow = true
 			witch_hazel = true
 
-		[types.leaves_type.aether]
-			skyroot = true
-			golden_oak = true
-			crystal = true
-			crystal_fruit = true
-			holiday = true
-			decorated_holiday = true
-
 		[types.leaves_type.gravitation]
 			aerfin = true
 			blue_aerfin = true
 			golden_aerfin = true
 			beladon = true
 			enchanted = true
-
-		[types.leaves_type.deep_aether]
-			roseroot = true
-			flowering_roseroot = true
-			blue_roseroot = true
-			flowering_blue_roseroot = true
-			yagroot = true
-			cruderoot = true
-			conberry = true
-			sunroot = true
-
-		[types.leaves_type.aether_redux]
-			blightwillow = true
-			glacia = true
-			purple_glacia = true
-			gilded_oak = true
-			blighted_skyroot = true
 
 		[types.leaves_type.twilightdelight]
 			ironwood = true
@@ -294,9 +226,6 @@
 
 		[types.leaves_type.upgrade_aquatic]
 			river = true
-
-		[types.leaves_type.alexscaves]
-			ancient = true
 
 		[types.leaves_type.forbidden_arcanus]
 			aurum = true

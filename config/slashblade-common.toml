@@ -19,13 +19,13 @@
 	#Determining the proud soul cost for single summon mirage blade.
 	#Range: > 1
 	summon_sword_cost = 2
+	#Determining the proud soul cost for summon blade arts.
+	#Range: > 1
+	summon_blade_art_cost = 20
 	#Determining the max proud soul count for single mobs kill.
 	#Range: > 1
 	max_proud_soul_got = 100
 	#Determining the base exhaustion for slashblade's self-repair.
 	#Range: 1.0E-4 ~ 1.7976931348623157E308
 	bewitched_hunger_exhaustion = 0.05
-	#Determining the proud soul cost for summon blade arts.
-	#Range: > 1
-	summon_blade_art_cost = 20
 

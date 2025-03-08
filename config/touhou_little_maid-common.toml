@@ -21,6 +21,18 @@
 	#The max range of maid's Non-Home mode
 	#Range: 3 ~ 32
 	MaidNonHomeRange = 8
+	#The max range of maid's bow attack
+	#Range: 8 ~ 192
+	BowRange = 48
+	#The max range of maid's crossbow attack
+	#Range: 8 ~ 192
+	CrossbowRange = 64
+	#The max range of maid's danmaku attack
+	#Range: 8 ~ 192
+	DanmakuRange = 64
+	#The max range of maid's trident attack
+	#Range: 8 ~ 192
+	TridentRange = 48
 	#The max number of animals around when the maid breeds animals
 	#Range: 6 ~ 65536
 	FeedAnimalMaxNumber = 50
