@@ -1,5 +1,7 @@
 
 [general]
+	#Enables the generation of dynamic assets. This is required for the mod to work properly. Turn off if you chose to add all the generated assets via datapack manually. This can speedup boot times for modpacks. Note that the generated assets will depend on loaded datapacks
+	generate_dynamic_assets = true
 	#Puts all the added items into a new Every Compat tab instead of their own mod tabs. Be warned that if disabled it could cause some issue with some mods that have custom tabs
 	creative_tab = true
 	#Makes dynamic assets that are generated depend on loaded resource packs. Turn off to make them just use vanilla assets

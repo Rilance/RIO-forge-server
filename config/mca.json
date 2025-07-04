@@ -26,7 +26,7 @@
   "zombieBiteInfectionChance": 0.05,
   "infectionChanceDecreasePerLevel": 0.25,
   "infectionTime": 72000,
-  "twinBabyChance": 0.02,
+  "twinBabyChance": 0.05,
   "marriageHeartsRequirement": 100,
   "engagementHeartsRequirement": 50,
   "bouquetHeartsRequirement": 10,
@@ -34,7 +34,7 @@
   "villagerMaxAgeTime": 384000,
   "villagerMaxHealth": 20,
   "allowVillagerTeleporting": false,
-  "villagerMinTeleportationDistance": 64.0,
+  "villagerMinTeleportationDistance": 128.0,
   "childInitialHearts": 100,
   "greetHeartsThreshold": 75,
   "greetAfterDays": 1,
@@ -69,8 +69,8 @@
   "trackVillagerPositionEveryNTicks": 200,
   "_read_this_before_using_villager_ai": "https://github.com/Luke100000/minecraft-comes-alive/wiki/GPT3-based-conversations",
   "enableVillagerChatAI": false,
-  "villagerChatAIIntelligence": 4,
   "villagerChatAIEndpoint": "https://api.conczin.net/v1/mca/chat",
+  "villagerChatAIUseTools": false,
   "villagerChatAIToken": "",
   "villagerChatAIModel": "default",
   "villagerChatAISystemPrompt": "",
@@ -80,7 +80,23 @@
   "inworldAIToken": "",
   "inworldAIResourceNames": {},
   "enableOnlineTTS": false,
-  "villagerTTSServer": "http://api.rk.conczin.net/",
+  "onlineTTSModel": "default",
+  "onlineTTSServer": "https://api.rk.conczin.net/",
+  "player2Url": "http://127.0.0.1:4315/",
+  "elevenlabsPrivateAPIkey": "",
+  "elevenlabsModel": "eleven_turbo_v2_5",
+  "elevenlabsMaleVoices": [
+    "ErXwobaYiN019PkySvjV",
+    "VR6AewLTigWG4xSOukaG",
+    "onwK4e9ZLuTAKqWW03F9",
+    "onwK4e9ZLuTAKqWW03F9"
+  ],
+  "elevenlabsFemaleVoices": [
+    "MF3mGyEYCl7XYWbV9V6O",
+    "AZnzlk1XvdvUeBnXmlld",
+    "pMsXgVXv3BLzUgSXRplE",
+    "AZnzlk1XvdvUeBnXmlld"
+  ],
   "guardSpawnFraction": 0.175,
   "taxesFactor": 0.5,
   "taxSeason": 168000,
@@ -207,14 +223,14 @@
   },
   "professionConversionsMap": {},
   "shaderLocationsMap": {
-    "sirben": "mca:shaders/post/sirben.json",
-    "color_blind": "minecraft:shaders/post/desaturate.json"
+    "color_blind": "minecraft:shaders/post/desaturate.json",
+    "sirben": "mca:shaders/post/sirben.json"
   },
   "playerRendererBlacklist": {
-    "firstperson": "arms",
-    "firstpersonmod": "arms",
     "epicfight": "all",
-    "morph": "arms"
+    "morph": "arms",
+    "firstperson": "arms",
+    "firstpersonmod": "arms"
   },
   "enabledTraits": {
     "SIRBEN": true,

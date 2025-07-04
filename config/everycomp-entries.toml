@@ -4,6 +4,10 @@
 
 	[types.wood_type]
 
+		[types.wood_type.upgrade_aquatic]
+			driftwood = true
+			river = true
+
 		[types.wood_type.domum_ornamentum]
 			cactus = true
 			cactus_extra = true
@@ -89,14 +93,6 @@
 
 		[types.wood_type.beachparty]
 			palm = true
-
-		[types.wood_type.upgrade_aquatic]
-			driftwood = true
-			river = true
-
-		[types.wood_type.alexscaves]
-			pewen = true
-			thornwood = true
 
 		[types.wood_type.forbidden_arcanus]
 			fungyss = true
@@ -192,9 +188,6 @@
 			cruderoot = true
 			conberry = true
 			sunroot = true
-
-		[types.leaves_type.alexscaves]
-			ancient = true
 
 		[types.leaves_type.naturesaura]
 			ancient = true
